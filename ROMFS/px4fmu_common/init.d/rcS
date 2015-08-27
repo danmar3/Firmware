@@ -554,7 +554,7 @@ then
 	fi
 
 	#
-	# Multicopters setup
+	# Multicopters setup ---------------------------------------------------------------------
 	#
 	if [ $VEHICLE_TYPE == mc ]
 	then

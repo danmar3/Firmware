@@ -138,6 +138,19 @@ MODULES		+= examples/flow_position_estimator
 #
 MODULES		+= examples/rover_steering_control
 
+
+
+
+#
+# Daniel apps
+#
+MODULES 	+= examples/helloSky
+MODULES 	+= examples/daemonTutorial
+MODULES 	+= examples/firstTestMotors
+MODULES 	+= examples/TestMotor
+MODULES 	+= examples/TestMotors
+MODULES 	+= examples/FirstController
+
 #
 # Demo apps
 #
@@ -159,7 +172,7 @@ MODULES		+= examples/rover_steering_control
 #MODULES			+= examples/fixedwing_control
 
 # Hardware test
-#MODULES			+= examples/hwtest
+MODULES			+= examples/hwtest
 
 # Generate parameter XML file
 GEN_PARAM_XML = 1
