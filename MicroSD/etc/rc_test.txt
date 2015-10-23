@@ -1,0 +1,10 @@
+set MODE custom
+sercon
+uorb start
+nshterm /dev/ttyACM0 &
+set TTYS1_BUSY no
+set OUTPUT_MODE fmu
+
+fmu mode_pwm
+mixer load /dev/pwm_output0 /etc/mixers/IO_pass.main.mix
+pwm arm

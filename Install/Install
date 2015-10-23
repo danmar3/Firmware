@@ -3,6 +3,8 @@ cd Firmware
 git submodule init
 git submodule update
 
+sudo apt-get remove ModemManager
+
 make archives
 
 # Register the Application in NuttShell and build it
@@ -15,3 +17,6 @@ make clean
 make px4fmu-v2_default -j4
 
 make upload px4fmu-v2_default -j4
+
+# To connect
+ screen /dev/ttyUSB0 57600 8N1

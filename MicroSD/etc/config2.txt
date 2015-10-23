@@ -1,0 +1,9 @@
+# Generic Quadcopter +
+# set VEHICLE_TYPE mc
+# set MIXER quad_x
+# PX4IO PWM output wll be used by default
+#set PWM_OUT 1234
+#set PWM_RATE 400
+#set PWM_DISARMED 900
+#set PWM_MIN 1100
+#set PWM_MAX 1900
